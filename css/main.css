@@ -1,0 +1,151 @@
+body{
+	background: #292d3e url(../img/BG.jpg) center center;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+	text-align: center;
+}
+#tabs{
+	width: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 15%);
+	background: #212534;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	font-size: 0;
+	background: #2b3040;
+}
+li{
+	display: inline-block;
+	width: 33.333%;
+	font-size: 16px;
+	height: 115px;
+	position: relative;
+}
+
+.title{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.icon{
+	display: block;
+	margin: 10px auto;
+}
+.tab-title,
+.off,
+button{
+	text-transform: uppercase;
+}
+.tab-title{
+	text-decoration: none;
+	color: #8d91a3;
+	width: 100%;
+	padding: 0 20px;
+}
+li:hover .tab-title{
+	color: #fff;
+	/*padding-bottom: 25px;
+	border-bottom: 2px solid #fff;*/
+}
+li:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.content-img{
+	width: 30%;
+	display: inline-block;
+	padding-top: 40px;
+	float: left;
+	padding-left: 15px;
+}
+.content-text{
+	width: 65%;
+	display: inline-block;
+	text-align: left;
+	padding: 50px 15px 80px 15px;
+}
+.product-name{
+	display: inline-block;
+	width: 60%;
+	margin-bottom: 20px;
+}
+.product-name h2{
+	font-size: 32px;
+	font-weight: 400;
+	margin: 0;
+}
+.product-name p{
+	margin: 0;
+	font-size: 14px;
+}
+.rating{
+	float: right;
+}
+.description{
+	color:#b7bacd;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+.buy{
+	width: 100%;
+	font-size: 0;
+	padding-bottom: 50px;
+}
+.stars,
+.price,
+.buy-btn{
+	width: 33.33%;
+	/*padding-top: 20px;*/
+	display: inline-block;
+}
+.price{
+	font-size: 32px;
+	text-align: left;
+	padding-left: 10px;
+}
+.off{
+	color: #fedc3f;
+	font-size: 12px;
+	font-weight: 700;
+}
+.price p{
+	margin: 0;
+}
+.buy-btn button{
+	width: 165px;
+	height: 55px;
+	background: #13e28d;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid #13e28d;
+}
+.buy-btn button:hover{
+	background: #fff;
+	border-color: #13e28d;
+	color: #13e28d;
+	transition: all 0.5s ease;
+}
+
+.tab-content{
+	display: none;
+}
+.active{
+	display: block;
+}
+.active-title .tab-title{
+	color: #fff;
+}
+.active-title{
+	border-bottom: 2px solid #fff;
+}
