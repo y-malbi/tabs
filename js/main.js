@@ -8,8 +8,3 @@ $('.title').click(function(){
   $('.tab-content').removeClass('active');
   $('#'+ title_id).addClass('active');
 });
-
-$('.close-btn').click(function(){
-  $('.modal-bg').remove();
-  $(this).parents('.modal').removeClass('active');
-});
